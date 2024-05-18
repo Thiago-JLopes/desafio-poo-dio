@@ -17,4 +17,9 @@ public class Mentoria extends Conteudo{
     public void setData(LocalDate data) {
         this.data = data;
     }
+
+    @Override
+    public String toString() {
+        return "Mentoria: " + this.getTitulo() + "Data: " + data;
+    }
 }
